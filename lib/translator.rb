@@ -9,11 +9,8 @@ emoticons = YAML.load_file(filepath)
 #binding.pry
 
 emoticons.each do |word, symbols|
-  symbols.each do |eng, jap|
-    binding.pry
     hash["get_meaning"] = {}
     hash["get_emoticon"] = {}
-  end
 end
 
 hash  
