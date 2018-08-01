@@ -6,7 +6,7 @@ def load_library(filepath)
   # code goes here
 hash = {} 
 emoticons = YAML.load_file(filepath)
-binding.pry
+#binding.pry
 hash["get_meaning"] = {}
 hash["get_emoticon"] = {}
 
