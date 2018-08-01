@@ -8,7 +8,8 @@ hash = {}
 hash["get_meaning"] = {}
 hash["get_emoticon"] = {}
 
-  
+
+hash  
 end
 
 def get_japanese_emoticon
