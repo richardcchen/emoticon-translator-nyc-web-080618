@@ -4,7 +4,9 @@ require "pry"
 
 def load_library(filepath)
   # code goes here
-#hash = {get_emoticon => {}, get_meaning => {}}
+hash = {} 
+hash["get_meaning"] = {}
+hash["get_emoticon"] = {}
 
   
 end
