@@ -5,6 +5,8 @@ require "pry"
 def load_library(filepath)
   # code goes here
 hash = {} 
+emoticons  = YAML.load_file("emoticons.yml")
+binding.pry
 hash["get_meaning"] = {}
 hash["get_emoticon"] = {}
 
