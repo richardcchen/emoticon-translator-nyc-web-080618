@@ -7,9 +7,12 @@ def load_library(filepath)
 hash = {} 
 emoticons = YAML.load_file(filepath)
 #binding.pry
-hash["get_meaning"] = {}
-hash["get_emoticon"] = {}
 
+emoticons.each do |word, symbols|
+  binding.pry
+  hash["get_meaning"] = {}
+  hash["get_emoticon"] = {}
+end
 
 hash  
 end
