@@ -15,11 +15,11 @@ emoticons.each do |word, symbols|
     hash["get_emoticon"][eng] = jap
    #binding.pry
 end
-
 hash  
 end
 
-def get_japanese_emoticon
+def get_japanese_emoticon(filepath, emoticon)
+  load_library(filepath)
   # code goes here
 end
 
