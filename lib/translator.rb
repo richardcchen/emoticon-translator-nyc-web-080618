@@ -22,10 +22,9 @@ def get_japanese_emoticon(filepath, emoticon)
   hash = load_library(filepath)
   if hash["get_emoticon"].has_key?(emoticon)
     ans = hash["get_emoticon"][emoticon]
-    binding.pry
   else
     puts "Sorry, that emoticon was not found"
-    
+    binding.pry
   end
 end
 
