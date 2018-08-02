@@ -20,8 +20,7 @@ end
 
 def get_japanese_emoticon(filepath, emoticon)
   hash = load_library(filepath)
-  hash[""]
-  binding.pry
+  hash["get_emoticon"][emoticon]
   
 end
 
