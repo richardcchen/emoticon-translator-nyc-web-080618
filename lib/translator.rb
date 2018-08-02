@@ -13,7 +13,7 @@ emoticons.each do |word, symbols|
     eng = symbols[0]
     hash["get_meaning"][jap] = word
     hash["get_emoticon"][eng] = jap
-   binding.pry
+   #binding.pry
 end
 
 hash  
