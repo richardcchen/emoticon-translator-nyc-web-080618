@@ -24,7 +24,6 @@ def get_japanese_emoticon(filepath, emoticon)
     ans = hash["get_emoticon"][emoticon]
   else
     "Sorry, that emoticon was not found"
-    binding.pry
   end
 end
 
